@@ -1,4 +1,4 @@
-package com.aditya.springsecurityamigocode.security;
+package com.aditya.springsecurity.security;
 
 import com.google.common.collect.Sets;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.aditya.springsecurityamigocode.security.ApplicationUserPermission.*;
+import static com.aditya.springsecurity.security.ApplicationUserPermission.*;
 
 @RequiredArgsConstructor
 @Getter

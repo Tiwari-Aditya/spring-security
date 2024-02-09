@@ -1,4 +1,4 @@
-package com.aditya.springsecurityamigocode.security;
+package com.aditya.springsecurity.security;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

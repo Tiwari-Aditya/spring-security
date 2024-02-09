@@ -1,6 +1,4 @@
-package com.aditya.springsecurityamigocode.auth;
-
-import org.springframework.security.core.userdetails.jdbc.JdbcDaoImpl;
+package com.aditya.springsecurity.auth;
 
 import java.util.Optional;
 

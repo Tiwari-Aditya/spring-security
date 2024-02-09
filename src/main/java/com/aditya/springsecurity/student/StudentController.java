@@ -1,4 +1,4 @@
-package com.aditya.springsecurityamigocode.student;
+package com.aditya.springsecurity.student;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,7 +1,6 @@
-package com.aditya.springsecurityamigocode.student;
+package com.aditya.springsecurity.student;
 
 import lombok.Data;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

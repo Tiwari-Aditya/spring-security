@@ -1,4 +1,4 @@
-package com.aditya.springsecurityamigocode.auth;
+package com.aditya.springsecurity.auth;
 
 import com.google.common.collect.Lists;
 import lombok.RequiredArgsConstructor;
@@ -8,10 +8,11 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
-import static com.aditya.springsecurityamigocode.security.ApplicationUserRole.*;
+import static com.aditya.springsecurity.security.ApplicationUserRole.*;
 @Repository("fake")
 @RequiredArgsConstructor
 public class FakeApplicationUserDaoService implements ApplicationUserdao {
+//    private final ApplicationUserdao applicationUserdao;
     private final PasswordEncoder passwordEncoder;
 
     @Override
